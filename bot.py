@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 from googleapiclient.discovery import build
 
-youtube=build('youtube','v3',developerKey='AIzaSyDmeKQ71AAJksvhHbzxycrAaZ6VlfcfQfk')
+youtube=build('youtube','v3',developerKey='')
 
 
 client=commands.Bot(command_prefix = ">")
@@ -53,4 +53,4 @@ async def clear(ctx, amount=1):
 async def ping(ctx):
 	await ctx.send(f"Bot latency: {client.latency*1000} ms")
 
-client.run("NzgwNjY1MDIzNDMzMTQ2Mzcw.X7yY9Q.S2OVfXEM-DAjS-RPoZMdgEJPg38")
+client.run("")
